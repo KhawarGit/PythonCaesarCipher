@@ -4,9 +4,9 @@ Encrypt and decrypt messages using the classic Caesar Cipher method. This Python
 
 ## Table of Contents
 
-- [About](about)
-- [Features](features)
-- [How to Use](how-to-use)
+- [About](#about)
+- [Features](#features)
+- [How to Use](#how-to-use)
   
 ## About
 
