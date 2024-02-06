@@ -11,17 +11,18 @@ m.configure(background='peach puff')
 m.title("The Cipher Converter by KHAWAR KHAN.")
 creator = Label(m, text="Encrypter and Decrypter By Using Cypher text By \n   KHAWAR KHAN",font="comicsansms 20 bold",bd=10,relief=RIDGE).pack(side=BOTTOM, fill=X)
 
+
+alphabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 #Encryption Function
 def cipher():
-    cipher = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
     encrypted = ""
     x = t.get()
     k = int(z.get())
     for i in range(len(x)):
         if x[i] != ' ':
             c = x[i].upper()
-            ci = (cipher.index(c)+k)%26
-            j = cipher[ci]
+            ci = (alphabets.index(c)+k)%26
+            j = alphabets[ci]
             encrypted += j
         else:
             encrypted += ' '
@@ -29,16 +30,14 @@ def cipher():
 
 # Decryption function
 def decrypt():
-    decrypt = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
     decrypted = ""
     x = t.get()
     k = int(z.get())
     for i in range(len(x)):
         if x[i] != ' ':
             c = x[i].upper()
-            ci = (decrypt.index(c)-k)%26
-            j = decrypt[ci]
+            ci = (alphabets.index(c)-k)%26
+            j = alphabets[ci]
             decrypted += j
         else:
             decrypted += ' '
