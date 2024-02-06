@@ -51,13 +51,13 @@ t = StringVar()
 z = IntVar()
 ch = StringVar()
 
-l = Label(m, text = 'Write the text you wanna convert in cipher.',font = "comicaansms 20 bold").pack(side=LEFT, anchor=NW)
+l = Label(m, text = 'Write the text to convert : ',font = "comicaansms 20 bold").pack(side=LEFT, anchor=NW)
 e1 = Entry(m,font = "comicaansms 20 bold",textvariable=t).place(x = 600, y = 0)
 
-l2 = Label(m,text = "Give the key value i.e. value of K",font = "comicaansms 20 bold").place(x=0, y=50)
+l2 = Label(m,text = "Give the key value i.e. value of K : ",font = "comicaansms 20 bold").place(x=0, y=50)
 e2 = Entry(m,font = "comicaansms 20 bold",textvariable=z).place(x = 600, y=50)
 
-la = Label(m,text="The converted text is ",font = "comicaansms 20 bold").place(x=0, y=100)
+la = Label(m,text="The converted text is : ",font = "comicaansms 20 bold").place(x=0, y=100)
 e3 = Entry(m,font = "comicaansms 20 bold",state = DISABLED,textvariable=ch).place(x=600,y=100)
 
 b = Button(m,text="Encrypt to cipher",font = "comicaansms 20 bold",command=cipher).place(x=600, y=150)
