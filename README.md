@@ -26,7 +26,7 @@ This project implements the Caesar Cipher encryption and decryption algorithm in
    cd PythonCaesarCipher
 2. **Run the Program:**
    ```bash
-   python
+   python pythonCaesarCipher.py
 3. **Encrypt or Decrypt:**
     * Enter your text in the input field.
     * Provide the key value (K) for encryption or decryption.
