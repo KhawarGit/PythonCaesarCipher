@@ -31,3 +31,8 @@ This project implements the Caesar Cipher encryption and decryption algorithm in
     * Enter your text in the input field.
     * Provide the key value (K) for encryption or decryption.
     * Click the corresponding button to perform the operation.
+  
+<hr>
+Author: 
+Khawar Khan   <br />
+LinkedIn: www.linkedin.com/in/khawar-khan
